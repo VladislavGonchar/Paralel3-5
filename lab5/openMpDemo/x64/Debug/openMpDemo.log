@@ -1,0 +1,19 @@
+﻿  Source.cpp
+D:\Parallellabs\lab5\openMpDemo\Source.cpp(29,11): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type '__int64'
+  D:\Parallellabs\lab5\openMpDemo\Source.cpp(29,11):
+  consider using '%lld' in the format string
+  D:\Parallellabs\lab5\openMpDemo\Source.cpp(29,11):
+  consider using '%Id' in the format string
+  D:\Parallellabs\lab5\openMpDemo\Source.cpp(29,11):
+  consider using '%I64d' in the format string
+  
+D:\Parallellabs\lab5\openMpDemo\Source.cpp(35,11): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type '__int64'
+  D:\Parallellabs\lab5\openMpDemo\Source.cpp(35,11):
+  consider using '%lld' in the format string
+  D:\Parallellabs\lab5\openMpDemo\Source.cpp(35,11):
+  consider using '%Id' in the format string
+  D:\Parallellabs\lab5\openMpDemo\Source.cpp(35,11):
+  consider using '%I64d' in the format string
+  
+D:\Parallellabs\lab5\openMpDemo\Source.cpp(51,51): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  openMpDemo.vcxproj -> D:\Parallellabs\lab5\x64\Debug\openMpDemo.exe

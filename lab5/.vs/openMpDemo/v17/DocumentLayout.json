@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Parallellabs\\lab5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{753F9C8C-7960-4EC9-A847-0A8FD05175C1}|openMpDemo\\openMpDemo.vcxproj|D:\\Parallellabs\\lab5\\openMpDemo\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{753F9C8C-7960-4EC9-A847-0A8FD05175C1}|openMpDemo\\openMpDemo.vcxproj|solutionrelative:openMpDemo\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "D:\\Parallellabs\\lab5\\openMpDemo\\Source.cpp",
+              "RelativeDocumentMoniker": "openMpDemo\\Source.cpp",
+              "ToolTip": "D:\\Parallellabs\\lab5\\openMpDemo\\Source.cpp",
+              "RelativeToolTip": "openMpDemo\\Source.cpp",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAwGkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-02T18:50:11.491Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
