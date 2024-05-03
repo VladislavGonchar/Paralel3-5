@@ -81,10 +81,10 @@ procedure Producer_Consumer is
 
       end Consumer;
 
-      -- Масиви задач та кількість елементів для кожної
-      C : array (1..6) of Consumer;
-      P :array (1..6) of Producer;
-      Col:array(1..6) of Integer:=(7,4,6,3,5,3);
+         -- Масиви задач та кількість елементів для кожної
+   C : array (1..4) of Consumer;  -- 4 задачі споживача
+   P : array (1..6) of Producer;  -- 6 задач виробника
+   Col: array(1..6) of Integer := (7, 4, 6, 3, 5, 3);
    begin
       -- Запуск кожної задачі
       for i in  C'Range loop
