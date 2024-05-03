@@ -81,19 +81,24 @@ procedure Producer_Consumer is
 
       end Consumer;
 
-         -- Масиви задач та кількість елементів для кожної
-   C : array (1..4) of Consumer;  -- 4 задачі споживача
-   P : array (1..6) of Producer;  -- 6 задач виробника
-   Col: array(1..6) of Integer := (7, 4, 6, 3, 5, 3);
+      -- Масиви задач та кількість елементів для кожної
+      C : array (1..5) of Consumer;  -- 5 задач споживача
+      P : array (1..3) of Producer;  -- 3 задачи виробника
+      Col_C : array (1..5) of Integer := (7, 4, 6, 3, 5);  -- Кількість елементів для кожної задачі споживача
+      Col_P : array (1..3) of Integer := (10, 8, 12);     -- Кількість елементів для кожної задачі виробника
    begin
-      -- Запуск кожної задачі
-      for i in  C'Range loop
-         C(i).Start(Col(i));  -- Запуск задачі споживача
-         P(i).Start(Col(i));  -- Запуск задачі виробника
+      -- Запуск кожної задачі споживача
+      for i in C'Range loop
+         C(i).Start(Col_C(i));
+      end loop;
+
+      -- Запуск кожної задачі виробника
+      for i in P'Range loop
+         P(i).Start(Col_P(i));
       end loop;
    end Starter;
 
 begin
    -- Запуск процедури Starter зі значеннями розміру сховища та кількості елементів
-   Starter (5, 15);
+   Starter (10, 28);
 end Producer_Consumer;
